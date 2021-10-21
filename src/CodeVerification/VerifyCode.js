@@ -45,7 +45,7 @@ const VerifyCode = () => {
         if(res.data.freeze) {
             const val = {
                 value: 1,
-                expiry: now.getTime() + 6000,
+                expiry: now.getTime() + 60000,
             }
             localStorage.setItem('freeze', JSON.stringify(val));
         }
