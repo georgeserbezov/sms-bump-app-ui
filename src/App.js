@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './Main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Some code will go here
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <center> <h1>SMS Bump App </h1> </center>
+      <Main />
     </div>
   );
 }
